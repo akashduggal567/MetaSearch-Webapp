@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+ <div class="jumbotron text-center">
+      <div class="container">
+    <h1>Meta Search Engine</h1>
+    <p class="lead">
+        This application is built on the Python Flask.
+        A metasearch engine (or aggregator) is
+        a search tool that uses another search engine's data
+        to produce its own results from the Internet.</p>
+      </div>
+ </div>
+{% endblock %}
+
+{% block box %}
+
+    <input type="text" name="search" placeholder="Search">
+    <input type="button" name="search_btn" value="Search">
+{% endblock %}
+
+{% block check1 %}
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" name="">Google
+  </label>
+{% endblock %}
+
+{% block check2 %}
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Yahoo
+  </label>
+{% endblock %}
+
+{% block check3 %}
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">bing
+  </label>
+{% endblock %}
+
+{% block check4 %}
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Ask.com
+  </label>
+{% endblock %}
+
